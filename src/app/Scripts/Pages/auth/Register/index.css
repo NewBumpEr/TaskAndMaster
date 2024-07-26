@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-container .p-password {
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.inputTextForRegister {
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.forgot-password-link {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -23px;
+  margin-bottom: -10px;
+  margin-right: -19px;
+}
+
+.p-invalid .p-inputtext {
+  border-color: #ff0000;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}

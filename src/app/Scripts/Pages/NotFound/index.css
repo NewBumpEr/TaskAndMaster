@@ -1,0 +1,28 @@
+.not-found-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.not-found-card {
+  width: 400px;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.not-found-card h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.not-found-card p {
+  margin-bottom: 2rem;
+}
+
+.p-button-raised {
+  margin-top: 1rem;
+}

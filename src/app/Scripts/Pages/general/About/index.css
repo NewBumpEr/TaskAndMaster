@@ -1,0 +1,71 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.about-container {
+  position: absolute;
+  top: 100px;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  color: black;
+}
+
+.about-container h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.about-container h1::after {
+  content: "";
+  display: block;
+  width: 55%;
+  height: 2px;
+  background-color: #00ff44;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.about-container p {
+  margin-bottom: 15px;
+}
+
+.about-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.about-container li {
+  margin-bottom: 5px;
+}
+
+.btnGitHub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scale: 0.9;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+.p-card-about{
+  width: 599px;
+}
+
+@media (max-width: 600px){
+    .main{
+        scale: 0.7;
+    }
+    .p-card-about{
+      width: 500px;
+    }
+}
