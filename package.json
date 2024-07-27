@@ -41,12 +41,23 @@
     "eject": "react-scripts eject"
   },
   "build": {
-    "extends": null,
+    "appId": "com.BumpEr&Friends.Task&Master",
+    "productName": "Task&Master",
     "files": [
       "build/**/*"
     ],
     "directories": {
       "buildResources": "assets"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
     }
   },
   "eslintConfig": {
