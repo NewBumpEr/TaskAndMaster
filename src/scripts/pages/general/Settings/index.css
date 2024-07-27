@@ -1,0 +1,40 @@
+.settings-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.settings-card {
+  width: 500px;
+  padding: 20px;
+}
+
+.btnEdit {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-top: -4rem;
+}
+
+.settings-grid {
+  gap: 1rem;
+}
+
+.settings-col-12 {
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.settings-inputtext {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.btnGoToHome {
+  width: 100%;
+}

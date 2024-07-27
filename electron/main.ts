@@ -1,6 +1,8 @@
 import { app, BrowserWindow } from 'electron';
 import * as path from 'path';
-import installExtension, { REACT_DEVELOPER_TOOLS } from "electron-devtools-installer";
+import installExtension, {
+  REACT_DEVELOPER_TOOLS,
+} from 'electron-devtools-installer';
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -11,9 +13,9 @@ function createWindow() {
     //icon: path.join(__dirname, 'icon.ico'),
     icon: __dirname + 'icon.ico',
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
-    }
-  })
+      preload: path.join(__dirname, 'preload.js'),
+    },
+  });
 
   win.maximize();
 
@@ -25,14 +27,16 @@ function createWindow() {
     // win.webContents.openDevTools();
 
     require('electron-reload')(__dirname, {
-      electron: path.join(__dirname,
+      electron: path.join(
+        __dirname,
         '..',
         '..',
         'node_modules',
         '.bin',
-        'electron' + (process.platform === "win32" ? ".cmd" : "")),
+        'electron' + (process.platform === 'win32' ? '.cmd' : '')
+      ),
       forceHardReset: true,
-      hardResetMethod: 'exit'
+      hardResetMethod: 'exit',
     });
   }
 }
@@ -40,8 +44,8 @@ function createWindow() {
 app.whenReady().then(() => {
   // DevTools
   installExtension(REACT_DEVELOPER_TOOLS)
-    .then((name) => console.log(`Added Extension:  ${name}`))
-    .catch((err) => console.log('An error occurred: ', err));
+    .then(name => console.log(`Added Extension:  ${name}`))
+    .catch(err => console.log('An error occurred: ', err));
 
   createWindow();
 

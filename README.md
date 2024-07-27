@@ -2,9 +2,10 @@
 
 Official website: [Task&Master](https://taskandmaster.web.app)
 
-   Task&Master is a web application for managing daily tasks, helping users efficiently plan their time and track task completion.
+Task&Master is a web application for managing daily tasks, helping users efficiently plan their time and track task completion.
 
 ## Project Goal
+
 Create a convenient and intuitive tool for organizing daily activities, allowing users to register, log in, add, edit, mark tasks as completed, and view planned tasks for future days.
 
 ## Technologies
@@ -14,10 +15,10 @@ Create a convenient and intuitive tool for organizing daily activities, allowing
 - **Firebase** - For user authentication and data storage.
 - **Electron** - For building a desktop application from the web app.
 
-
 ## Getting Started
 
 ### Prerequisites
+
 Ensure you have [Node.js](https://nodejs.org/) installed.
 
 ### Installation

@@ -1,0 +1,22 @@
+.navbar-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  font-style: oblique;
+  font-weight: bold;
+  font-size: larger;
+}
+
+@media (max-width: 360px) {
+  .text {
+    position: fixed;
+    left: 130px;
+    top: 20px;
+  }
+}

@@ -1,0 +1,56 @@
+.profile-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.profile-card {
+  width: 500px;
+  padding: 20px;
+}
+
+.btnEdit {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-top: -4rem;
+}
+
+.p-grid {
+  gap: 1rem;
+}
+
+.p-col-12 {
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.p-inputtextProfile {
+  width: 100%;
+}
+
+.inputTextForProfile {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.p-password {
+  width: 100%;
+}
+
+.btnGoToHome {
+  width: 100%;
+}
+
+.forgot-passwordBtn {
+  margin-top: 10px;
+}
+
+.star {
+  color: red;
+}
